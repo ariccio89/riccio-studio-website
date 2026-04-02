@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Riccio Studio — Real Marketing. Real Results.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════ -->
+<!-- NAV                                    -->
+<!-- ══════════════════════════════════════ -->
+<nav>
+  <div class="nav-logo" onclick="showPage('home')">Riccio <span>Studio</span></div>
+  <ul class="nav-links">
+    <li><a onclick="showPage('home')" id="nav-home" class="active">Home</a></li>
+    <li><a onclick="showPage('about')" id="nav-about">About</a></li>
+    <li><a onclick="showPage('portfolio')" id="nav-portfolio">Portfolio</a></li>
+    <li><a onclick="showPage('blog')" id="nav-blog">Blog</a></li>
+    <li><a onclick="showPage('contact')" id="nav-contact">Contact</a></li>
+  </ul>
+  <button class="nav-cta" onclick="showPage('contact')">Get a Free Audit</button>
+</nav>
+
+<!-- ══════════════════════════════════════ -->
+<!-- PAGE: HOME                             -->
+<!-- ══════════════════════════════════════ -->
+<div id="page-home" class="page active pt-nav">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">Marketing for Local Businesses</div>
+      <h1>More customers.<br>More revenue.<br><em>Less guesswork.</em></h1>
+      <p class="hero-sub">We help restaurants, salons, dental practices and clinics grow with marketing that actually works — no jargon, no fluff, just real results.</p>
+      <div class="hero-actions">
+        <button class="btn-primary" onclick="showPage('contact')">Get a Free Audit</button>
+        <span class="hero-arrow" onclick="showPage('portfolio')">See our work &rarr;</span>
+      </div>
+    </div>
+    <div class="hero-scroll">Scroll to explore</div>
+    <div class="hero-tags">
+      <span class="hero-tag">Restaurants &amp; Cafés</span>
+      <span class="hero-tag">Hair &amp; Beauty</span>
+      <span class="hero-tag">Dental Practices</span>
+      <span class="hero-tag">Physiotherapy</span>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat">
+        <div class="stat-num">+47%</div>
+        <div class="stat-label">Average revenue uplift in year one</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">80+</div>
+        <div class="stat-label">Local businesses helped</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">4.9★</div>
+        <div class="stat-label">Average client rating</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">6+</div>
+        <div class="stat-label">Years working with SMEs</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INDUSTRIES -->
+  <div style="background: var(--offwhite); padding: 100px 60px;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <span class="section-label">Who we work with</span>
+      <h2 class="section-title">Built for the <em>businesses</em><br>that keep our communities running.</h2>
+      <p class="section-lead">We specialise in four sectors where great marketing can transform a business — and where most agencies don't really understand the day-to-day reality.</p>
+      <div class="industries-grid">
+        <div class="industry-card">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Restaurant" />
+          <div class="industry-card-overlay"></div>
+          <div class="industry-card-label">
+            <div class="arrow">→</div>
+            <h3>Restaurants &amp; Cafés</h3>
+            <p>Fill more covers. Build loyal regulars.</p>
+          </div>
+        </div>
+        <div class="industry-card">
+          <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=600&q=80" alt="Salon" />
+          <div class="industry-card-overlay"></div>
+          <div class="industry-card-label">
+            <div class="arrow">→</div>
+            <h3>Hair &amp; Beauty Salons</h3>
+            <p>Keep your books full. Reduce no-shows.</p>
+          </div>
+        </div>
+        <div class="industry-card">
+          <img src="https://images.unsplash.com/photo-1588776814546-1ffbb9ce5df4?w=600&q=80" alt="Dentist" />
+          <div class="industry-card-overlay"></div>
+          <div class="industry-card-label">
+            <div class="arrow">→</div>
+            <h3>Dental Practices</h3>
+            <p>Attract new patients. Protect your reputation.</p>
+          </div>
+        </div>
+        <div class="industry-card">
+          <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80" alt="Physio" />
+          <div class="industry-card-overlay"></div>
+          <div class="industry-card-label">
+            <div class="arrow">→</div>
+            <h3>Physiotherapists</h3>
+            <p>Grow your patient list. Stand out locally.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <div style="padding: 0 60px 100px; max-width:1200px; margin:0 auto; padding-top:100px;">
+    <span class="section-label">What we do</span>
+    <h2 class="section-title">Everything you need to<br><em>grow your business online.</em></h2>
+    <p class="section-lead">One studio. Seven services. All focused on bringing more customers through your door.</p>
+  </div>
+  <div class="services-grid" style="max-width:1200px; margin: 0 auto 100px;">
+    <div class="service-card">
+      <div class="service-icon">📱</div>
+      <h3>Social Media & Content</h3>
+      <p>We create content that actually looks like you — not a template. From photography to captions, we manage it all.</p>
+      <ul class="service-list">
+        <li>Monthly content planning & creation</li>
+        <li>Professional photography direction</li>
+        <li>Community management & replies</li>
+        <li>Instagram, Facebook & TikTok</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🎯</div>
+      <h3>Google Advertising</h3>
+      <p>Be the first business customers see when they search for what you offer — right in your area.</p>
+      <ul class="service-list">
+        <li>Google Search & Display ads</li>
+        <li>Local Services Ads setup</li>
+        <li>Monthly budget optimisation</li>
+        <li>Transparent performance reports</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">⭐</div>
+      <h3>Reputation Management</h3>
+      <p>Your online reputation is your most valuable asset. We help you build it, protect it and respond to it.</p>
+      <ul class="service-list">
+        <li>Google review generation strategy</li>
+        <li>Review monitoring & alerts</li>
+        <li>Professional response management</li>
+        <li>Competitor reputation analysis</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🛵</div>
+      <h3>Deliveroo Management</h3>
+      <p>Maximise your delivery revenue without it eating into your margins. We manage your listing so you don't have to.</p>
+      <ul class="service-list">
+        <li>Menu optimisation & photography</li>
+        <li>Promotional campaign management</li>
+        <li>Deliveroo analytics & insights</li>
+        <li>Margin-friendly growth strategy</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">✉️</div>
+      <h3>Email Marketing</h3>
+      <p>Turn one-time visitors into loyal customers. Email is still the highest-ROI channel — and most businesses aren't using it properly.</p>
+      <ul class="service-list">
+        <li>List building & segmentation</li>
+        <li>Monthly newsletters & campaigns</li>
+        <li>Automated welcome sequences</li>
+        <li>Booking & appointment reminders</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">💻</div>
+      <h3>Website Creation</h3>
+      <p>A professional website that converts visitors into bookings. Fast, mobile-ready, and built to rank on Google.</p>
+      <ul class="service-list">
+        <li>Custom design (no templates)</li>
+        <li>Mobile-first development</li>
+        <li>Online booking integration</li>
+        <li>SEO-ready from day one</li>
+      </ul>
+    </div>
+    <div class="service-card" style="grid-column: 1 / -1;">
+      <div style="display:flex; gap:48px; align-items:flex-start;">
+        <div style="flex:1;">
+          <div class="service-icon">🔍</div>
+          <h3>SEO — Search Engine Optimisation</h3>
+          <p>Rank higher in Google for the searches that matter most to your business. We focus on local SEO that drives foot traffic and bookings — not just clicks.</p>
+        </div>
+        <div style="flex:1; padding-top:52px;">
+          <ul class="service-list">
+            <li>Google Business Profile optimisation</li>
+            <li>Local keyword research & targeting</li>
+            <li>On-page SEO & content strategy</li>
+            <li>Monthly ranking reports</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROCESS -->
+  <div class="process-bg section-full" style="padding-top:100px; padding-bottom:100px;">
+    <div style="max-width:1200px; margin:0 auto; padding: 0 60px;">
+      <span class="section-label">How it works</span>
+      <h2 class="section-title">From first call to <em>real results</em><br>in four simple steps.</h2>
+      <p class="section-lead">We keep it simple. No lengthy onboarding. No confusing contracts. Just a clear process that gets you moving fast.</p>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-connector"></div>
+          <div class="step-num-wrap"><span class="step-num">1</span></div>
+          <h3>Free Audit Call</h3>
+          <p>A 30-minute call where we look at your current online presence and identify exactly where the gaps are — and the opportunities.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-connector"></div>
+          <div class="step-num-wrap"><span class="step-num">2</span></div>
+          <h3>Strategy &amp; Proposal</h3>
+          <p>We put together a tailored plan for your business — the channels that will work best, what results to expect and a clear monthly investment.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-connector"></div>
+          <div class="step-num-wrap"><span class="step-num">3</span></div>
+          <h3>We Get to Work</h3>
+          <p>Onboarding is fast. Within the first two weeks, campaigns are live, content is being created and your online presence starts improving.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num-wrap"><span class="step-num">4</span></div>
+          <h3>Track &amp; Grow</h3>
+          <p>Every month you get a plain-English report showing exactly what's working, what we're adjusting and what's coming next.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TESTIMONIALS -->
+  <div style="padding:100px 60px; max-width:1200px; margin:0 auto;">
+    <span class="section-label">What clients say</span>
+    <h2 class="section-title">Don't take our word for it.</h2>
+    <div class="divider"></div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <blockquote>Antonio and the team completely transformed how we show up online. Our Google reviews went from 14 to over 200, and we're now fully booked every weekend. Worth every penny.</blockquote>
+        <div class="testimonial-meta">
+          <strong>Marco Bellini</strong>
+          <span>OWNER · LA PIAZZA RESTAURANT</span>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <blockquote>I was sceptical at first — I'd tried agencies before and wasted money. But Riccio Studio was different. They spoke in plain English, set realistic goals, and delivered on every single one.</blockquote>
+        <div class="testimonial-meta">
+          <strong>Sophie Clarke</strong>
+          <span>OWNER · VELVET HAIR STUDIO</span>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <blockquote>Since working with Riccio Studio, our new patient enquiries have almost doubled. The Google ads they run are targeted brilliantly and the ROI is very clear.</blockquote>
+        <div class="testimonial-meta">
+          <strong>Dr. Aisha Patel</strong>
+          <span>PRINCIPAL DENTIST · BRIGHT SMILE DENTAL</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA BAND -->
+  <div class="cta-band">
+    <h2>Ready to see what's <em>possible</em>?</h2>
+    <p>Book a free 30-minute audit. We'll tell you honestly what's working, what isn't, and what to do about it — no obligation.</p>
+    <div class="cta-band-actions">
+      <button class="btn-primary" onclick="showPage('contact')">Book a Free Audit</button>
+      <button class="btn-outline-white" onclick="showPage('portfolio')">View Case Studies</button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>Riccio <span>Studio</span></h3>
+        <p>Real marketing for real businesses. We help local service businesses attract more customers and grow their revenue — without the agency nonsense.</p>
+        <div class="footer-email"><a href="mailto:Hello@riccio-studio.com">Hello@riccio-studio.com</a></div>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a onclick="showPage('home')">Home</a></li>
+          <li><a onclick="showPage('about')">About Us</a></li>
+          <li><a onclick="showPage('portfolio')">Portfolio</a></li>
+          <li><a onclick="showPage('blog')">Blog</a></li>
+          <li><a onclick="showPage('contact')">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a>Social Media & Content</a></li>
+          <li><a>Google Advertising</a></li>
+          <li><a>Reputation Management</a></li>
+          <li><a>Deliveroo Management</a></li>
+          <li><a>Email Marketing</a></li>
+          <li><a>Website Creation</a></li>
+          <li><a>SEO</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Industries</h4>
+        <ul>
+          <li><a>Restaurants &amp; Cafés</a></li>
+          <li><a>Hair &amp; Beauty</a></li>
+          <li><a>Dental Practices</a></li>
+          <li><a>Physiotherapy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Riccio Studio. All rights reserved.</p>
+      <p><a href="mailto:Hello@riccio-studio.com">Hello@riccio-studio.com</a></p>
+    </div>
+  </footer>
+
+</div><!-- /page-home -->
+
+
+<!-- ══════════════════════════════════════ -->
+<!-- PAGE: ABOUT                            -->
+<!-- ══════════════════════════════════════ -->
+<div id="page-about" class="page pt-nav">
+
+  <!-- ABOUT HERO -->
+  <div class="about-hero">
+    <div class="about-hero-inner">
+      <div class="hero-eyebrow">About Riccio Studio</div>
+      <h1>Marketing that <em>respects</em><br>your time and money.</h1>
+      <p>We're a specialist marketing studio working exclusively with local service businesses. We care about one thing: results you can see in your revenue.</p>
+    </div>
+  </div>
+
+  <!-- STORY -->
+  <div style="padding: 100px 60px;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div class="about-story">
+        <div class="about-story-img">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Antonio Riccio" />
+        </div>
+        <div class="about-story-text">
+          <span class="section-label">Our Story</span>
+          <h2>Built by someone who got <em>frustrated</em> with bad marketing advice.</h2>
+          <p>I started Riccio Studio after spending years watching great local businesses waste money on marketing that never actually worked — vanity metrics, confusing reports, and agencies who talked a lot but delivered very little.</p>
+          <p><strong>Local businesses deserve better.</strong> A restaurant owner shouldn't need a marketing degree to understand what they're paying for. A salon owner shouldn't be presented with a 40-page report when all they want to know is "did we get more bookings?"</p>
+          <p>So we built a studio around one principle: <strong>plain language, clear goals, honest results.</strong> We work with a small number of clients so we can genuinely focus on each one. And we only measure success by the things that matter to you — customers, bookings and revenue.</p>
+          <div style="margin-top:32px;">
+            <button class="btn-primary" onclick="showPage('contact')">Work with us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VALUES -->
+  <div style="background: var(--offwhite); padding: 100px 60px;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <span class="section-label">Our values</span>
+      <h2 class="section-title">The four things we <em>never compromise on.</em></h2>
+      <div class="divider"></div>
+      <div class="values-grid">
+        <div class="value-card">
+          <h3>Honesty</h3>
+          <p>We tell you what's working and what isn't — even when it's uncomfortable. No hiding behind vanity metrics or confusing jargon.</p>
+        </div>
+        <div class="value-card">
+          <h3>Results-first</h3>
+          <p>Likes and impressions are nice. But we're obsessed with the numbers that actually matter: customers, bookings and revenue.</p>
+        </div>
+        <div class="value-card">
+          <h3>Approachable</h3>
+          <p>You can always reach us. You'll always understand what we're doing. We keep things simple and communicate like real people.</p>
+        </div>
+        <div class="value-card">
+          <h3>Calm &amp; Reassuring</h3>
+          <p>Running a business is stressful enough. When you work with us, marketing stops being something to worry about and becomes something that just works.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WHO WE SERVE -->
+  <div class="who-we-serve section-full" style="padding-top:100px; padding-bottom:100px;">
+    <div style="max-width:1200px; margin:0 auto; padding: 0 60px;">
+      <span class="section-label">Who we help</span>
+      <h2 class="section-title">We specialise. We don't work<br>with <em>everyone</em>.</h2>
+      <p class="section-lead">By focusing on four industries, we've built deep knowledge of what works — and what doesn't — in each one.</p>
+    </div>
+    <div style="max-width:1200px; margin:0 auto; padding: 0 0px;">
+      <div class="serve-grid">
+        <div class="serve-item">
+          <div class="serve-icon">🍽️</div>
+          <div>
+            <h3>Restaurants &amp; Cafés</h3>
+            <p>We understand covers, average spend, Deliveroo margin squeeze, Sunday brunch rushes and slow Tuesday evenings. We build strategies for the realities of the hospitality industry — not generic advice.</p>
+          </div>
+        </div>
+        <div class="serve-item">
+          <div class="serve-icon">✂️</div>
+          <div>
+            <h3>Hair Dressers &amp; Salons</h3>
+            <p>No-shows cost you money. So does an inconsistent social feed. We handle both — helping you fill your books with the right clients and keep them coming back.</p>
+          </div>
+        </div>
+        <div class="serve-item">
+          <div class="serve-icon">🦷</div>
+          <div>
+            <h3>Dental Practices</h3>
+            <p>New patient acquisition, Google reviews that build trust, and a website that converts — we know what dental patients are looking for before they book, and we make sure they find you first.</p>
+          </div>
+        </div>
+        <div class="serve-item">
+          <div class="serve-icon">🏃</div>
+          <div>
+            <h3>Physiotherapists</h3>
+            <p>Whether you're a solo physio or a multi-practitioner clinic, we help you get found on Google, build a reputation in your local area and fill your appointment slots consistently.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-band">
+    <h2>Let's talk about your <em>business.</em></h2>
+    <p>A free 30-minute call. No commitment. Just an honest conversation about where you are and where you could be.</p>
+    <div class="cta-band-actions">
+      <button class="btn-primary" onclick="showPage('contact')">Book a Free Call</button>
+      <button class="btn-outline-white" onclick="showPage('portfolio')">See our work</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>Riccio <span>Studio</span></h3>
+        <p>Real marketing for real businesses. We help local service businesses attract more customers and grow their revenue.</p>
+        <div class="footer-email"><a href="mailto:Hello@riccio-studio.com">Hello@riccio-studio.com</a></div>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a onclick="showPage('home')">Home</a></li>
+          <li><a onclick="showPage('about')">About Us</a></li>
+          <li><a onclick="showPage('portfolio')">Portfolio</a></li>
+          <li><a onclick="showPage('blog')">Blog</a></li>
+          <li><a onclick="showPage('contact')">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a>Social Media & Content</a></li>
+          <li><a>Google Advertising</a></li>
+          <li><a>Reputation Management</a></li>
+          <li><a>Deliveroo Management</a></li>
+          <li><a>Email Marketing</a></li>
+          <li><a>Website Creation</a></li>
+          <li><a>SEO</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Industries</h4>
+        <ul>
+          <li><a>Restaurants &amp; Cafés</a></li>
+          <li><a>Hair &amp; Beauty</a></li>
+          <li><a>Dental Practices</a></li>
+          <li><a>Physiotherapy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Riccio Studio. All rights reserved.</p>
+      <p><a href="mailto:Hello@riccio-studio.com">Hello@riccio-studio.com</a></p>
+    </div>
+  </footer>
+
+</div><!-- /page-about -->
+
+
+<!-- ══════════════════════════════════════ -->
+<!-- PAGE: PORTFOLIO                        -->
+<!-- ══════════════════════════════════════ -->
+<div id="page-portfolio" class="page pt-nav">
+
+  <!-- PORTFOLIO HERO -->
+  <div class="portfolio-hero">
+    <div style="max-width:700px;">
+      <div class="hero-eyebrow">Our Work</div>
+      <h1>Results for <em>real businesses</em><br>in the real world.</h1>
+      <p>Every case study below is a business like yours — a local service business that needed more customers, better visibility and smarter marketing.</p>
+    </div>
+  </div>
+
+  <!-- CASE STUDY FEATURE -->
+  <div class="case-study-feature">
+    <div>
+      <div class="section-label">Featured Case Study</div>
+      <h2>How we helped La Piazza go from<br><em>invisible to fully booked.</em></h2>
+      <p>La Piazza is an Italian restaurant in South London. When they came to us, they had 14 Google reviews, no social media strategy and were losing weekday covers to competitors. Within 12 months, the transformation was significant.</p>
+      <p>We built a full digital presence from the ground up — managing their Google profile, creating weekly content, running Google ads for local searches and launching a monthly email newsletter for regulars.</p>
+      <div class="case-metrics">
+        <div class="case-metric">
+          <strong>+214</strong>
+          <span>New Google reviews</span>
+        </div>
+        <div class="case-metric">
+          <strong>+52%</strong>
+          <span>Revenue year-on-year</span>
+        </div>
+        <div class="case-metric">
+          <strong>4.8★</strong>
+          <span>Average rating</span>
+        </div>
+      </div>
+    </div>
+    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80" alt="La Piazza Restaurant" />
+  </div>
+
+  <!-- PORTFOLIO GRID -->
+  <div style="max-width:1200px; margin:0 auto; padding:80px 60px;">
+    <span class="section-label">More case studies</span>
+    <h2 class="section-title">Recent <em>client work.</em></h2>
+    <div class="divider"></div>
+    <div class="portfolio-filters">
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">Restaurants</button>
+      <button class="filter-btn">Hair &amp; Beauty</button>
+      <button class="filter-btn">Dental</button>
+      <button class="filter-btn">Physiotherapy</button>
+    </div>
+    <div class="portfolio-grid">
+
+      <div class="portfolio-card">
+        <div class="portfolio-card-img">
+          <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=600&q=80" alt="Velvet Hair Studio" />
+          <span class="portfolio-card-tag">Hair &amp; Beauty</span>
+        </div>
+        <div class="portfolio-card-body">
+          <h3>Velvet Hair Studio</h3>
+          <p>Fully booked every week and a 3-month waiting list — with zero paid ads. Pure organic growth through social and reputation management.</p>
+          <div class="portfolio-results">
+            <div class="result-item"><span class="result-num">+89%</span><span class="result-label">Bookings</span></div>
+            <div class="result-item"><span class="result-num">12k</span><span class="result-label">Instagram Followers</span></div>
+            <div class="result-item"><span class="result-num">5.0★</span><span class="result-label">Google Rating</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div class="portfolio-card-img">
+          <img src="https://images.unsplash.com/photo-1588776814546-1ffbb9ce5df4?w=600&q=80" alt="Bright Smile Dental" />
+          <span class="portfolio-card-tag">Dental</span>
+        </div>
+        <div class="portfolio-card-body">
+          <h3>Bright Smile Dental</h3>
+          <p>New patient enquiries nearly doubled after a full digital rebuild — new website, Google Ads and a reputation strategy that made them the most-reviewed practice in the area.</p>
+          <div class="portfolio-results">
+            <div class="result-item"><span class="result-num">+94%</span><span class="result-label">Enquiries</span></div>
+            <div class="result-item"><span class="result-num">180+</span><span class="result-label">New Reviews</span></div>
+            <div class="result-item"><span class="result-num">4.9★</span><span class="result-label">Google Rating</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div class="portfolio-card-img">
+          <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80" alt="Apex Physio" />
+          <span class="portfolio-card-tag">Physiotherapy</span>
+        </div>
+        <div class="portfolio-card-body">
+          <h3>Apex Physiotherapy</h3>
+          <p>A solo physio who wanted to grow without massive ad spend. We built local SEO authority and a referral email strategy that now generates 60% of new patients.</p>
+          <div class="portfolio-results">
+            <div class="result-item"><span class="result-num">+67%</span><span class="result-label">New Patients</span></div>
+            <div class="result-item"><span class="result-num">#1</span><span class="result-label">Local Google Rank</span></div>
+            <div class="result-item"><span class="result-num">4.8★</span><span class="result-label">Google Rating</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div class="portfolio-card-img">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="The Garden Café" />
+          <span class="portfolio-card-tag">Restaurant</span>
+        </div>
+        <div class="portfolio-card-body">
+          <h3>The Garden Café</h3>
+          <p>A neighbourhood café struggling with quiet mornings and midweek dips. Instagram content and a targeted email strategy completely changed the pattern of their week.</p>
+          <div class="portfolio-results">
+            <div class="result-item"><span class="result-num">+41%</span><span class="result-label">Weekday Revenue</span></div>
+            <div class="result-item"><span class="result-num">8.5k</span><span class="result-label">Email Subscribers</span></div>
+            <div class="result-item"><span class="result-num">4.7★</span><span class="result-label">Google Rating</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div class="portfolio-card-img">
+          <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600&q=80" alt="Glow Beauty Bar" />
+          <span class="portfolio-card-tag">Hair &amp; Beauty</span>
+        </div>
+        <div class="portfolio-card-body">
+          <h3>Glow Beauty Bar</h3>
+          <p>A new salon that needed to establish presence quickly. We went from zero to 200+ Google reviews and a 6-week waiting list in under 8 months.</p>
+          <div class="portfolio-results">
+            <div class="result-item"><span class="result-num">200+</span><span class="result-label">Google Reviews</span></div>
+            <div class="result-item"><span class="result-num">6 wk</span><span class="result-label">Waiting List</span></div>
+            <div class="result-item"><span class="result-num">4.9★</span><span class="result-label">Rating</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div class="portfolio-card-img">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80" alt="Napoli Nights" />
+          <span class="portfolio-card-tag">Restaurant</span>
+        </div>
+        <div class="portfolio-card-body">
+          <h3>Napoli Nights</h3>
+          <p>Deliveroo revenue was eating into margins. We rebuilt their listing, photography and promotional strategy — growing Deliveroo revenue while improving profitability.</p>
+          <div class="portfolio-results">
+            <div class="result-item"><span class="result-num">+35%</span><span class="result-label">Deliveroo Revenue</span></div>
+            <div class="result-item"><span class="result-num">+18%</span><span class="result-label">Avg. Order Value</span></div>
+            <div class="result-item"><span class="result-num">4.8★</span><span class="result-label">Platform Rating</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-band">
+    <h2>Your business could be <em>next.</em></h2>
+    <p>Book a free audit and we'll show you exactly what's possible for your business specifically.</p>
+    <div class="cta-band-actions">
+      <button class="btn-primary" onclick="showPage('contact')">Get a Free Audit</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>Riccio <span>Studio</span></h3>
+        <p>Real marketing for real businesses. We help local service businesses attract more customers and grow their revenue.</p>
+        <div class="footer-email"><a href="mailto:Hello@riccio-studio.com">Hello@riccio-studio.com</a></div>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a onclick="showPage('home')">Home</a></li>
+          <li><a onclick="showPage('about')">About Us</a></li>
+          <li><a onclick="showPage('portfolio')">Portfolio</a></li>
+          <li><a onclick="showPage('blog')">Blog</a></li>
+          <li><a onclick="showPage('contact')">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a>Social Media & Content</a></li>
+          <li><a>Google Advertising</a></li>
+          <li><a>Reputation Management</a></li>
+          <li><a>Email Marketing</a></li>
+          <li><a>Website Creation</a></li>
+          <li><a>SEO</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Industries</h4>
+        <ul>
+          <li><a>Restaurants &amp; Cafés</a></li>
+          <li><a>Hair &amp; Beauty</a></li>
+          <li><a>Dental Practices</a></li>
+          <li><a>Physiotherapy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Riccio Studio. All rights reserved.</p>
+      <p><a href="mailto:Hello@riccio-studio.com">Hello@riccio-studio.com</a></p>
+    </div>
+  </footer>
+
+</div><!-- /page-portfolio -->
+
+
+<!-- ══════════════════════════════════════ -->
+<!-- PAGE: BLOG                             -->
+<!-- ══════════════════════════════════════ -->
+<div id="page-blog" class="page pt-nav">
+
+  <!-- BLOG HERO -->
+  <div class="blog-hero">
+    <div style="max-width:640px;">
+      <div class="hero-eyebrow">Insights &amp; Advice</div>
+      <h1>Marketing advice that <em>actually</em><br>makes sense.</h1>
+      <p>No jargon. No fluff. Just practical ideas to help your local business attract more customers and grow.</p>
+    </div>
+  </div>
+
+  <!-- BLOG CONTENT -->
+  <div style="max-width:1200px; margin:0 auto; padding:80px 60px;">
+    <span class="section-label">Featured Articles</span>
+    <h2 class="section-title">Latest from the <em>studio.</em></h2>
+    <div class="divider"></div>
+
+    <!-- FEATURED -->
+    <div class="blog-featured">
+      <div class="blog-featured-card">
+        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80" alt="Google Reviews Guide" />
+        <div class="blog-card-body">
+          <div class="blog-meta">
+            <span class="blog-cat">Reputation</span>
+            <span class="blog-date">24 March 2026</span>
+          </div>
+          <h3>The Lazy Restaurant Owner's Guide to Getting 100 Google Reviews</h3>
+          <p>Most restaurants have great food and terrible Google profiles. Here's a simple, embarrassingly effective system for getting reviews without making your staff feel awkward about it.</p>
+          <span class="blog-read-more">Read the full article →</span>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:24px;">
+        <div class="blog-featured-card" style="display:flex; overflow:hidden; height:calc(50% - 12px);">
+          <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&q=80" alt="Social Media" style="width:160px; height:100%; object-fit:cover; flex-shrink:0;" />
+          <div class="blog-card-body" style="padding: 20px;">
+            <div class="blog-meta"><span class="blog-cat">Social Media</span><span class="blog-date">18 Mar 2026</span></div>
+            <h3 style="font-size:17px;">Why Your Salon's Instagram Isn't Getting You Bookings</h3>
+            <span class="blog-read-more">Read →</span>
+          </div>
+        </div>
+        <div class="blog-featured-card" style="display:flex; overflow:hidden; height:calc(50% - 12px);">
+          <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&q=80" alt="SEO" style="width:160px; height:100%; object-fit:cover; flex-shrink:0;" />
+          <div class="blog-card-body" style="padding: 20px;">
+            <div class="blog-meta"><span class="blog-cat">SEO</span><span class="blog-date">10 Mar 2026</span></div>
+            <h3 style="font-size:17px;">Local SEO in 2026: What's Actually Changed</h3>
+            <span class="blog-read-more">Read →</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ALL ARTICLES GRID -->
+    <h3 style="font-family:'Playfair Display',serif; font-size:26px; color:var(--navy); margin-bottom:32px;">More articles</h3>
+    <div class="blog-grid">
+
+      <div class="blog-card">
+        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80" alt="Email Marketing" />
+        <div class="blog-card-body">
+          <div class="blog-meta"><span class="blog-cat">Email</span><span class="blog-date">5 Mar 2026</span></div>
+          <h3>Email Marketing for Restaurants: The 3 Emails That Fill Tables</h3>
+          <p>Most restaurants don't have an email list. The ones that do don't use it properly. Here's the three-email playbook that actually drives covers.</p>
+          <span class="blog-read-more">Read →</span>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80" alt="Google Ads" />
+        <div class="blog-card-body">
+          <div class="blog-meta"><span class="blog-cat">Google Ads</span><span class="blog-date">26 Feb 2026</span></div>
+          <h3>How Much Should a Dental Practice Spend on Google Ads?</h3>
+          <p>An honest breakdown of budgets, expected returns and what to watch out for when running Google ads for a dental clinic.</p>
+          <span class="blog-read-more">Read →</span>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80" alt="Deliveroo" />
+        <div class="blog-card-body">
+          <div class="blog-meta"><span class="blog-cat">Deliveroo</span><span class="blog-date">18 Feb 2026</span></div>
+          <h3>Is Deliveroo Hurting Your Restaurant's Profitability?</h3>
+          <p>The platform takes a big commission. But it doesn't have to be a bad deal. Here's how to make Deliveroo work for your margins, not against them.</p>
+          <span class="blog-read-more">Read →</span>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=80" alt="Content Creation" />
+        <div class="blog-card-body">
+          <div class="blog-meta"><span class="blog-cat">Social Media</span><span class="blog-date">10 Feb 2026</span></div>
+          <h3>5 Types of Content That Work for Beauty Salons (With Examples)</h3>
+          <p>You don't need to post every day. You just need to post the right things. Here are five content formats that consistently drive bookings.</p>
+          <span class="blog-read-more">Read →</span>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <img src="https://images.unsplash.com/photo-1504439468489-c8920d796a29?w=600&q=80" alt="Physio Marketing" />
+        <div class="blog-card-body">
+          <div class="blog-meta"><span class="blog-cat">Strategy</span><span class="blog-date">3 Feb 2026</span></div>
+          <h3>How Physiotherapists Can Get More Referrals Without Asking Awkwardly</h3>
+          <p>Word of mouth is still gold. But there's a way to systematise it without being pushy. Here's how the best physio practices do it.</p>
+          <span class="blog-read-more">Read →</span>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="Website" />
+        <div class="blog-card-body">
+          <div class="blog-meta"><span class="blog-cat">Website</span><span class="blog-date">27 Jan 2026</span></div>
+          <h3>Is Your Website Losing You Customers? 6 Signs to Look For</h3>
+          <p>Most local businesses don't realise how many potential customers leave their website without getting in touch. Check these six warning signs today.</p>
+          <span class="blog-read-more">Read →</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- NEWSLETTER -->
+  <div class="newsletter-band">
+    <span class="section-label">Stay in the loop</span>
+    <h2>Get practical marketing tips every fortnight.</h2>
+    <p>Short emails. No fluff. Real advice you can act on today. Join 2,400+ local business owners already signed up.</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="Your email address" />
+      <button class="btn-primary">Subscribe</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>Riccio <span>Studio</span></h3>
+        <p>Real marketing for real businesses. We help local service businesses attract more customers and grow their revenue.</p>
+        <div class="footer-email"><a href="mailto:Hello@riccio-studio.com">Hello@riccio-studio.com</a></div>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a onclick="showPage('home')">Home</a></li>
+          <li><a onclick="showPage('about')">About Us</a></li>
+          <li><a onclick="showPage('portfolio')">Portfolio</a></li>
+          <li><a onclick="showPage('blog')">Blog</a></li>
+          <li><a onclick="showPage('contact')">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Topics</h4>
+        <ul>
+          <li><a>Social Media</a></li>
+          <li><a>Google Ads</a></li>
+          <li><a>Reputation</a></li>
+          <li><a>Email Marketing</a></li>
+          <li><a>SEO</a></li>
+          <li><a>Deliveroo</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Industries</h4>
+        <ul>
+          <li><a>Restaurants &amp; Cafés</a></li>
+          <li><a>Hair &amp; Beauty</a></li>
+          <li><a>Dental Practices</a></li>
+          <li><a>Physiotherapy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Riccio Studio. All rights reserved.</p>
+      <p><a href="mailto:Hello@riccio-studio.com">Hello@riccio-studio.com</a></p>
+    </div>
+  </footer>
+
+</div><!-- /page-blog -->
+
+
+<!-- ══════════════════════════════════════ -->
+<!-- PAGE: CONTACT                          -->
+<!-- ══════════════════════════════════════ -->
+<div id="page-contact" class="page pt-nav">
+
+  <!-- CONTACT HERO -->
+  <div class="contact-hero">
+    <div style="max-width:640px;">
+      <div class="hero-eyebrow">Get in touch</div>
+      <h1>Let's talk about your <em>business.</em></h1>
+      <p>Book a free 30-minute audit call. We'll look at your current online presence and give you honest feedback — no pitch, no pressure.</p>
+    </div>
+  </div>
+
+  <!-- CONTACT LAYOUT -->
+  <div style="max-width:1200px; margin:0 auto; padding:80px 60px;">
+    <div class="contact-layout">
+
+      <!-- FORM -->
+      <div class="contact-form-wrap">
+        <h2>Send us a message</h2>
+        <p>Fill in the form and we'll get back to you within one business day.</p>
+        <form onsubmit="handleFormSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" placeholder="Antonio" required />
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" placeholder="Riccio" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="you@yourbusiness.com" required />
+          </div>
+          <div class="form-group">
+            <label>Business Name</label>
+            <input type="text" placeholder="Your Business Name" />
+          </div>
+          <div class="form-group">
+            <label>Type of Business</label>
+            <select>
+              <option value="">Please select…</option>
+              <option>Restaurant or Café</option>
+              <option>Hair Dresser or Salon</option>
+              <option>Dental Practice</option>
+              <option>Physiotherapy Clinic</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>What are you looking for help with?</label>
+            <select>
+              <option value="">Please select…</option>
+              <option>Social Media &amp; Content</option>
+              <option>Google Advertising</option>
+              <option>Reputation Management</option>
+              <option>Deliveroo Management</option>
+              <option>Email Marketing</option>
+              <option>Website Creation</option>
+              <option>SEO</option>
+              <option>Full Marketing Package</option>
+              <option>Not sure — need advice</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Tell us a bit about your situation</label>
+            <textarea placeholder="What's your biggest marketing challenge right now? What would 'success' look like for you?"></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="width:100%; text-align:center;">Send Message →</button>
+        </form>
+        <div id="form-success" style="display:none; margin-top:24px; padding:20px 24px; background:var(--lightg); border-left:3px solid var(--gold); border-radius:3px;">
+          <strong style="color:var(--green);">Message sent!</strong>
+          <p style="color:var(--slate); font-size:14px; margin-top:4px;">Thanks for getting in touch. We'll come back to you within one business day.</p>
+        </div>
+      </div>
+
+      <!-- CONTACT INFO -->
+      <div class="contact-info">
+        <h3>Get in touch directly</h3>
+
+        <div class="info-item">
+          <div class="info-icon">✉️</div>
+          <div>
+            <strong>Email</strong>
+            <a href="mailto:Hello@riccio-studio.com">Hello@riccio-studio.com</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">📞</div>
+          <div>
+            <strong>Phone / WhatsApp</strong>
+            <span>Available on request</span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">🕐</div>
+          <div>
+            <strong>Response time</strong>
+            <span>Within 1 business day</span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div>
+            <strong>Where we work</strong>
+            <span>We work with businesses across the UK, fully remote</span>
+          </div>
+        </div>
+
+        <div class="contact-industries-list">
+          <h4>We work with</h4>
+          <span class="ind-tag">🍽️ Restaurants</span>
+          <span class="ind-tag">☕ Cafés</span>
+          <span class="ind-tag">✂️ Hair Dressers</span>
+          <span class="ind-tag">💅 Salons</span>
+          <span class="ind-tag">🦷 Dentists</span>
+          <span class="ind-tag">🏃 Physiotherapists</span>
+        </div>
+
+        <!-- WHAT HAPPENS NEXT -->
+        <div style="margin-top:48px; padding: 32px; background: var(--offwhite); border-radius: 4px;">
+          <h4 style="font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--navy); margin-bottom:20px;">What happens next?</h4>
+          <div style="display:flex; flex-direction:column; gap:16px;">
+            <div style="display:flex; gap:14px; align-items:flex-start;">
+              <div style="width:28px; height:28px; background:var(--navy); border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--gold); font-size:13px; font-weight:700; flex-shrink:0;">1</div>
+              <p style="font-size:14px; color:var(--slate); line-height:1.6;">We review your message and your current online presence.</p>
+            </div>
+            <div style="display:flex; gap:14px; align-items:flex-start;">
+              <div style="width:28px; height:28px; background:var(--navy); border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--gold); font-size:13px; font-weight:700; flex-shrink:0;">2</div>
+              <p style="font-size:14px; color:var(--slate); line-height:1.6;">We reply within one business day with a few questions and a suggested call time.</p>
+            </div>
+            <div style="display:flex; gap:14px; align-items:flex-start;">
+              <div style="width:28px; height:28px; background:var(--navy); border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--gold); font-size:13px; font-weight:700; flex-shrink:0;">3</div>
+              <p style="font-size:14px; color:var(--slate); line-height:1.6;">30-minute call. We listen. You get honest feedback. No obligation whatsoever.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq-section section-full" style="padding-top:80px; padding-bottom:80px;">
+    <div style="max-width:1200px; margin:0 auto; padding:0 60px;">
+      <span class="section-label">FAQs</span>
+      <h2 class="section-title">Common <em>questions.</em></h2>
+      <div class="faq-list">
+        <div class="faq-item open">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            How much does it cost to work with Riccio Studio?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">It depends on the services you need and the scope of work. We offer monthly retainers starting from a level that works for small local businesses, and we're always transparent about what's included. We'll give you a clear proposal after the free audit call — no surprises.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            How quickly will I see results?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">Some things — like Google Ads and reputation management — can show results within weeks. SEO and organic social typically take 3–6 months to build meaningful momentum. We'll be honest with you about realistic timelines from the very first conversation.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            Do I need to sign a long contract?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">We typically work on a rolling monthly basis after an initial 3-month period to allow strategies to take root. We believe in earning your business every month — not locking you in when results aren't there.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            How involved do I need to be?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">As involved as you want to be. Some clients like to be closely involved in content approval and strategy. Others hand us the keys and trust us to get on with it. We adapt to what works best for you. Most clients spend no more than 1–2 hours per month on marketing-related tasks with us.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            Do you work with businesses outside the UK?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">Our focus is on UK-based local businesses. If you're based outside the UK, get in touch and we'll let you know honestly if we're a good fit for your situation.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>Riccio <span>Studio</span></h3>
+        <p>Real marketing for real businesses. We help local service businesses attract more customers and grow their revenue.</p>
+        <div class="footer-email"><a href="mailto:Hello@riccio-studio.com">Hello@riccio-studio.com</a></div>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a onclick="showPage('home')">Home</a></li>
+          <li><a onclick="showPage('about')">About Us</a></li>
+          <li><a onclick="showPage('portfolio')">Portfolio</a></li>
+          <li><a onclick="showPage('blog')">Blog</a></li>
+          <li><a onclick="showPage('contact')">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a>Social Media & Content</a></li>
+          <li><a>Google Advertising</a></li>
+          <li><a>Reputation Management</a></li>
+          <li><a>Email Marketing</a></li>
+          <li><a>Website Creation</a></li>
+          <li><a>SEO</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Industries</h4>
+        <ul>
+          <li><a>Restaurants &amp; Cafés</a></li>
+          <li><a>Hair &amp; Beauty</a></li>
+          <li><a>Dental Practices</a></li>
+          <li><a>Physiotherapy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Riccio Studio. All rights reserved.</p>
+      <p><a href="mailto:Hello@riccio-studio.com">Hello@riccio-studio.com</a></p>
+    </div>
+  </footer>
+
+</div><!-- /page-contact -->
+
+<script src="script.js"></script>
+</body>
+</html>
